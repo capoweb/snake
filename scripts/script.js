@@ -1,3 +1,4 @@
+
 const canvas = document.getElementById('game-canvas');
 const ctx = canvas.getContext("2d");
 let text = document.querySelector('.score-count');
@@ -92,3 +93,4 @@ function drawGame() {
 }
 
 let game = setInterval(drawGame, 200);
+
